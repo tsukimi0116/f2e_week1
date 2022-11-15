@@ -10,6 +10,7 @@ module.exports = {
       primary: '#007fab',
       navFont: '#ffc37d',
       titleColor: '#FF5136',
+      SecondaryDark: '#A46039',
     }),
     backgroundColor: (theme) => ({
       ...theme('colors'),
@@ -42,7 +43,9 @@ module.exports = {
         55: '50rem',
         'start-size': '1430px',
         'menu-size': '60px',
+        hand: '56px 69px',
         75: '75% 100%',
+        100: '100% 100%',
       },
       backgroundImage: {
         'nav-bg': "url('../src/assets/bg/bg_menuSide.png')",
@@ -60,6 +63,7 @@ module.exports = {
         'map-bg': "url('../src/assets/main/map.svg')",
         'btn-join': "url('../src/assets/btn/btn_join.png')",
         'btn-join-h': "url('../src/assets/btn/btn_join_h.png')",
+        'btn-join-hand': "url('../src/assets/btn/btn_joinHand.gif')",
         'bg-talking': "url('../src/assets/bg/bg_talking.png')",
       },
       lineHeight: {

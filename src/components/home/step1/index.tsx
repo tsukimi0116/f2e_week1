@@ -3,7 +3,7 @@ import Image from 'next/image';
 import LogoText from '@/logo/logo_text.png';
 import Decorate1 from '@/bg/bg_decorate_01.png';
 import Decorate5 from '@/bg/bg_decorate_05.png';
-import Attendance from './attendance';
+import Attendance from '@/components/home/step1/attendance';
 
 export default () => (
   <section className="w-full h-screen bg-secondary">
