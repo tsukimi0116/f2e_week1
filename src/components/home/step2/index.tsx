@@ -22,7 +22,7 @@ export default () => (
       </div>
 
       <div className="w-1/4 h-110">
-        動畫技能數太雜無從下手?
+        動畫技能樹太雜無從下手?
         <Image src={Question3} alt="" />
       </div>
     </div>

@@ -42,7 +42,7 @@
   "plugins": [],
   "rules": {
     "import/extensions": [
-      "error",
+      0,
       "ignorePackages",
       {
         "js": "never",
@@ -71,6 +71,7 @@
       }
     ],
     "react/jsx-props-no-spreading": "off",
-    "linebreak-style": 0
+    "linebreak-style": 0,
+    "import/no-unresolved": "off"
   }
 }
