@@ -18,6 +18,15 @@ module.exports = {
       secondary: '#ffc37d',
       navBg: '#007FAB',
       titleColor: '#FF5136',
+      SecondaryDark: '#A46039',
+    }),
+    borderColor: (theme) => ({
+      ...theme('colors'),
+      primary: '#007fab',
+      secondary: '#ffc37d',
+      navBg: '#007FAB',
+      titleColor: '#FF5136',
+      SecondaryDark: '#A46039',
     }),
     fontSize: {
       xs: '.75rem',
