@@ -72,6 +72,8 @@
     ],
     "react/jsx-props-no-spreading": "off",
     "linebreak-style": 0,
-    "import/no-unresolved": "off"
+    "import/no-unresolved": "off",
+    "no-undef": "off",
+    "react/require-default-props": "off"
   }
 }
