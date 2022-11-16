@@ -12,7 +12,7 @@ export default () => (
       <dd className={descriptionCSS}>The F2E 活動網站設計</dd>
       <span className={brownTagCSS}>Parallax Scrolling</span>
       <span className={brownTagCSS}>#版塊設計</span>
-      <button className={brownButtonCSS}>查看關卡細節</button>
+      <button type="button" className={brownButtonCSS}>查看關卡細節</button>
     </dl>
 
     <dl className="w-1/2 m-auto text-right">
@@ -20,7 +20,7 @@ export default () => (
       <dd className={descriptionCSS}>今晚，我想來點點簽</dd>
       <span className={brownTagCSS}>Canvas</span>
       <span className={brownTagCSS}>#凱鈿行動科技</span>
-      <button className={brownButtonCSS}>查看關卡細節</button>
+      <button type="button" className={brownButtonCSS}>查看關卡細節</button>
     </dl>
 
     <dl className="w-1/2 m-auto">
@@ -28,7 +28,7 @@ export default () => (
       <dd className={descriptionCSS}>Scrum 新手村</dd>
       <span className={brownTagCSS}>JS draggable</span>
       <span className={brownTagCSS}>#鈦坦科技</span>
-      <button className={brownButtonCSS}>查看關卡細節</button>
+      <button type="button" className={brownButtonCSS}>查看關卡細節</button>
     </dl>
   </article>
 );
