@@ -6,7 +6,7 @@ import Character from '@/components/character';
 export default () => (
   <>
     <Navbar />
-    {/* <Character /> */}
+    <Character />
     <HomePage />
   </>
 );

@@ -59,7 +59,9 @@ module.exports = {
       backgroundImage: {
         'nav-bg': "url('../src/assets/bg/bg_menuSide.png')",
         'nav-close-btn': "url('../src/assets/btn/btn_burger_close.png')",
+        'nav-open-btn': "url('../src/assets/btn/btn_burger_open.png')",
         'nav-close-btn-h': "url('../src/assets/btn/btn_burger_close_h.png')",
+        'nav-open-btn-h': "url('../src/assets/btn/btn_burger_open_h.png')",
         'start-bg': "url('../src/assets/main/start.png')",
         'user-icon': "url('../src/assets/ic/ic_users.svg')",
         'ready-frame': "url('../src/assets/main/ready_frame.png')",
@@ -80,6 +82,9 @@ module.exports = {
       },
       inset: {
         '1/8': '12.5%',
+      },
+      cursor: {
+        default: 'url(../src/assets/cursor/cursor.png), default',
       },
     },
   },

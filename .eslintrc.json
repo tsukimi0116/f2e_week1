@@ -74,6 +74,7 @@
     "linebreak-style": 0,
     "import/no-unresolved": "off",
     "no-undef": "off",
-    "react/require-default-props": "off"
+    "react/require-default-props": "off",
+    "jsx-a11y/label-has-associated-control": 0
   }
 }
