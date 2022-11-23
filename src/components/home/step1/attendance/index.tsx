@@ -1,7 +1,7 @@
 import React from 'react';
 
 export default () => (
-  <ul className="flex justify-between item-center mt-14 mx-auto w-1/3">
+  <ul className="attendance flex justify-between item-center mt-14 mx-auto w-1/3">
     <li className="text-center text-2xl text-nav font-bold">
       <h1 className="text-primary">前端工程師</h1>
       <article className="rounded-full text-white bg-primary w-32 h-10 leading-40">

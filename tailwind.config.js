@@ -86,6 +86,8 @@ module.exports = {
       },
       inset: {
         '1/8': '12.5%',
+        26: '6.5rem',
+        42: '10.75rem',
       },
       cursor: {
         default: 'url(../src/assets/cursor/cursor.png), default',
