@@ -1,3 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@font-face {
+    font-family:'GenJyuuGothic';
+    src:url('../src/font/GenJyuuGothic-Medium.ttf')
+}

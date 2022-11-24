@@ -45,6 +45,9 @@ module.exports = {
     },
 
     extend: {
+      fontFamily: {
+        GenJyuuGothic: ['GenJyuuGothic', 'sans-serif'],
+      },
       height: {
         110: '27rem',
       },
@@ -91,6 +94,7 @@ module.exports = {
       },
       cursor: {
         default: 'url(../src/assets/cursor/cursor.png), default',
+        pointer: 'url(../src/assets/cursor/cursor.png), pointer',
       },
     },
   },

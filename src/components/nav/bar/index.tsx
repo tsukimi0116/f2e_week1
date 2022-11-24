@@ -19,6 +19,6 @@ export default () => (
       <div className="bg-nav-close-btn w-16 inline-block" />
     </ul>
     <article className="relative -left-32 w-5 h-screen bg-nav-bg bg-cover bg-right transition-all duration-300 peer-checked:translate-x-32" />
-    <label htmlFor="menu-control" className="relative w-16 h-16 -ml-px bg-nav-open-btn bg-cover peer-checked:bg-nav-close-btn -left-32 transition-all duration-300 hover:bg-nav-open-btn-h peer-checked:translate-x-32 peer-checked:hover:bg-nav-close-btn-h" />
+    <label htmlFor="menu-control" className="relative w-16 h-16 -ml-px bg-nav-open-btn bg-cover peer-checked:bg-nav-close-btn -left-32 transition-all duration-300 hover:bg-nav-open-btn-h cursor-pointer peer-checked:translate-x-32 peer-checked:hover:bg-nav-close-btn-h" />
   </nav>
 );

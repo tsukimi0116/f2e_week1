@@ -51,7 +51,7 @@ export default () => {
       </article>
       <article className="traffic-light bg-ready-frame inline-block w-72 h-28 bg-no-repeat bg-contain absolute top-1/2 right-0 z-50">
         <h1 className="ready-text text-3xl font-bold text-titleColor absolute -top-10 left-20">Ready?</h1>
-        <h1 className="go-text opacity-0 text-3xl font-bold text-titleColor absolute -top-10 left-20">Go!!</h1>
+        <h1 className="go-text opacity-0 text-3xl font-bold text-titleColor absolute -top-10 left-26">Go!!</h1>
         <Image src={RedLight} alt="" className="redLight absolute w-12 h-12 top-8 left-9" />
         <Image src={YellowLight} alt="" className="yellowLight absolute w-12 h-12 top-8 left-26" />
         <Image src={GreenLight} alt="" className="greenLight absolute w-12 h-12 top-8 left-42" />
