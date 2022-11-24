@@ -50,6 +50,7 @@ module.exports = {
       },
       height: {
         110: '27rem',
+        '2vh': '200vh',
       },
       backgroundSize: {
         55: '50rem',

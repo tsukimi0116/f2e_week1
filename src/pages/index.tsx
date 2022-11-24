@@ -6,7 +6,7 @@ import Character from '@/components/character';
 export default () => (
   <main className="cursor-default font-GenJyuuGothic">
     <Navbar />
-    <Character />
+    {/* <Character /> */}
     <HomePage />
   </main>
 );
