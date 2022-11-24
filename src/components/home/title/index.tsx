@@ -4,7 +4,7 @@ type Props = {
     title: string,
     description?:string,
     children?: JSX.Element,
-    className:string
+    className?:string
 }
 
 export default ({
