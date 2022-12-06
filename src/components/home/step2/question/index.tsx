@@ -6,17 +6,17 @@ import Question3 from '@/main/question_3.png';
 
 export default () => (
   <ul className="flex justify-center items-center mt-10 font-bold text-3xl text-center text-titleColor">
-    <li className="w-1/4 h-110">
+    <li className="question1 w-1/4 h-110">
       羨慕別人的酷酷網頁動畫?
       <Image src={Question1} alt="" />
     </li>
 
-    <li className="w-1/4 h-110 mx-5">
+    <li className="question2 w-1/4 h-110 mx-5 opacity-0">
       滿足不了同事的許願?
       <Image src={Question2} alt="" />
     </li>
 
-    <li className="w-1/4 h-110">
+    <li className="question3 w-1/4 h-110 opacity-0">
       動畫技能樹太雜無從下手?
       <Image src={Question3} alt="" />
     </li>

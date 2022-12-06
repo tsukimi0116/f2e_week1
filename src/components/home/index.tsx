@@ -8,7 +8,7 @@ export default () => (
   <section className="w-full h-full bg-secondary">
     <Step1 />
     <Step2 />
-    {/* <Step3 /> */}
+    <Step3 />
     {/* <Step4 /> */}
   </section>
 );

@@ -3,7 +3,7 @@ import Image from 'next/image';
 import BtnJoin from '@/btn/btn_join.png';
 
 export default () => (
-  <ul className="flex justify-center mt-10 items-center font-bold text-3xl text-center text-titleColor">
+  <ul className="group flex justify-center mt-10 items-center font-bold text-3xl text-center text-titleColor opacity-0">
 
     <li className="pt-20 w-1/4 h-110 bg-no-repeat bg-top bg-hand hover:bg-btn-join-hand">
       前端工程師

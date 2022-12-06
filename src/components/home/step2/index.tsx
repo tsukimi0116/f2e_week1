@@ -13,12 +13,16 @@ export default () => {
         scrollTrigger: {
           trigger: '.section2',
           start: 'top 0%',
-          end: '+=1200',
+          end: '+=1000',
           scrub: 1,
         },
       });
 
-      section2Effect.to('.section2-Title', { opacity: 1 });
+      section2Effect.to('.section2-Title', { opacity: 1 })
+        .fromTo('.question1', { opacity: 0, translateX: -200 }, { opacity: 1, translateX: 0 })
+        .to('.question2', { opacity: 1 })
+        .fromTo('.question3', { opacity: 0, translateX: 200 }, { opacity: 1, translateX: 0 })
+        .to(['.section2-Title', '.question1', '.question2', '.question3'], { opacity: 0 });
 
       return () => ctx.revert();
     });
